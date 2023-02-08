@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/de2e620fc5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="pictures/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+                <h1>Hey Guys!<br><span>
+                    I'm<br>
+                </span><span>Ravi Ranjan Sinha</span><br></h1>
+                <p>(student)</p>
+                
+            </div>
+        </div>
+    </div>
+    <!----------------------about------------>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pictures/profilepic.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class ="subtitle">About Me<br></h1>
+                    <p>
+                        I'm RAVI RANJAN SINHA student of Lovely Professional University currently pursuing Btech CSE.
+                        an ordinary learner is on the way to become an extraordinary.
+                        Eager to become a software engineer with excellent problem-solving skills, 
+                        passionate about web development and coding. Having knowledge of languages like C++, Javascript etc. Enthusiastic and eager to learn new technology. Motivated to learn, grow and 
+                        excel in the computer science domain using 3(p) patience, persistence, preseverance.
+                    </p><br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>C/C++</span><br>Programming languages used for developing website,making apps</li><br>
+                            <li><span>HTML/CSS</span><br>Used for making a webpage</li><br>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span><b>Codechef</b></span><br> 1star coder Rating 1270</li><br>
+                            <li><span><b>Cocubes</b></span><br> <li>Scored 547 marks in Diagnostic Y1 test.</li></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>Btech(2020-Present)</b></span><br>Computer Science Engineering from Lovely Professional University</li><br>
+                            <li><span><b>Intermediate(2017-2019)</b></span><br>From Kendriya Vidyalaya CRPF Mokamaghat, Mokama</li><br>
+                            <li><span><b>Matriculation(2017)</b></span><br>From DAV Public School Mokama</li><br>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service -->
+    <div id="Projects">
+        <div class="container">
+            <h1 class="subtitle">Services</h1>
+            <div class="projectlist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Developer</h2>
+                    <p>C++ developers design and build applications for desktops and mobile devices. They collaborate with stakeholders on company needs and turn that into applications people can use. They need to have a very good understanding of the object-oriented programming language and how it can be used in real-world situations</p>
+                    <a href="https://www.4cornerresources.com/job-descriptions/c-developer/#:~:text=C%2B%2B%20developers%20design%20and%20build,used%20in%20real%2Dworld%20situations.">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Frontend Developer</h2>
+                    <p>A front-end developer builds the front-end portion of websites and web applications—that is, the part that users actually see and interact with. A front-end developer creates websites and applications using web languages such as HTML, CSS, and JavaScript that allow users to access and interact with the site or app</p>
+                    <a href="https://www.coursera.org/articles/front-end-developer">Learn more</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pictures/Imag.jpg">
+                    <div class="layer">
+                        <h3>Bank Management System</h3>
+                        <p>
+                            The bank management system is a program that keeps track of a person’s bank account. The system allows customers to create accounts, deposit/withdraw money from their accounts, and examine reports for all of their accounts.
+                        </p>
+                        <a href="https://github.com/ravisince2000/bank-management-system"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="pictures/Img.jpg">
+                    <div class="layer">
+                        <h3>Word Guessing Game</h3>
+                        <p>
+                            The word guessing game is created and design using HTML,CSS and JavaScript.In this game you have to guess the word in the mentioned remaning times. And appears alert message when you guess correct word.
+                        </p>
+                        <a href="https://ravisince2000.github.io/Word-Guessing-Game/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+               
+                </div>
+            </div>
+            <a href="https://github.com/ravisince2000" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rsinharavi67@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+91 9162538367</p>
+                    <div class="socialicons">
+                        
+                        
+                        <a href="https://www.linkedin.com/in/ravi-ranjan-sinha-241b34202/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/ravisince2000"><i class="fa-brands fa-square-github"></i></a>
+                    </div>
+                    <a href="pictures/Ravi's Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email Id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="thankyou">
+        <p>Thank You!! for visiting my personal Website....</p>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+        } 
+    </script>
+    <script>
+        const scriptURL='https://script.google.com/macros/s/AKfycbxPZvzscEiagdKRST8auCggThcytPJSFczwFJNpso0HJBXHmk_GlLqe_UJ5mdi2-zR5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg =document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
